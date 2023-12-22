@@ -9,7 +9,7 @@ console.log(multiplicar(5,3))
 // Função de Saudação
 
 function saudacaoNome(nome: string) {
-    console.log(`Olá ${nome}.`)
+    return `Olá ${nome}.`
 }
 
-saudacaoNome('Joao');
+console.log(saudacaoNome('Joao'))
